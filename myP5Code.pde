@@ -4,10 +4,10 @@ setup = function(){
     frameRate(30); 
 }
 
-var y = 0;  // position of the ball
-var x = 0;
-var red = 0;
-var blue =0;
+var y = 0;  // y position of the ball
+var x = 0;  // x position of the ball
+var red = 0;  // red on rgb of the ball
+var blue = 0;  // blue on rgb of the ball
 var speed = 2;  // how far the ball moves every time
 
 //draw Function - will run repeatedly
@@ -39,5 +39,5 @@ draw = function() {
 
     y = y + speed;  // move the ball
 
-    x = x + speed
+    x = x + speed;  // move the ball
 };
